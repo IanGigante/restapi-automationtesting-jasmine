@@ -1,5 +1,5 @@
 ### DISCLAIMER
-BASE FRAMEWORK = api-testing-protractor-typescript
+BASE FRAMEWORK = api-testing-protractor-typescript  
 https://github.com/qaloop/api-testing-protractor-typescript 
 For POC Purposes only
 
