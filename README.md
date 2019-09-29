@@ -28,8 +28,8 @@ https://nodejs.org/en/download/
     - To execute your scripts declared on config.ts
     
 #### Structure
-├───images                          # This folder contains sample report image
-├───temp                            # This folder contains JS file which are generated after compiling TypeScript files
-├───test-results                    # This folder contains test result (includes html report and screenshots)
-└───test-suites                     # This folder contains spec/test files
+├───images                          # This folder contains sample report image  
+├───temp                            # This folder contains JS file which are generated after compiling TypeScript files  
+├───test-results                    # This folder contains test result (includes html report and screenshots)  
+└───test-suites                     # This folder contains spec/test files  
 
