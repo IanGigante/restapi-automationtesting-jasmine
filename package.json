@@ -1,0 +1,43 @@
+{
+  "name": "restapi-automationtesting-jasmine",
+  "version": "0.0.1",
+  "main": "conf.js",
+  "dependencies": {
+    "@types/node": "^12.7.1",
+    "jasmine": "^3.4.0",
+    "protractor": "^5.4.2",
+    "request": "^2.88.0",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.16",
+    "codelyzer": "^4.5.0",
+    "protractor-beautiful-reporter": "^1.3.5",
+    "tslint": "^5.18.0"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "clean": "rimraf temp/ && rimraf download/",
+    "pretest": "npm run clean && npm run tsc",
+    "test": "protractor temp/conf.js",
+    "webdriver-update": "node node_modules/protractor/bin/webdriver-manager update"
+  },
+  "keywords": [
+    "request",
+    "protractor",
+    "typescript",
+    "javascript",
+    "angular",
+    "angularjs",
+    "vscode",
+    "testing",
+    "api testing"
+  ],
+  "author": "Ian Gigante",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IanGigante/restapi-automationtesting-jasmine.git"
+  }
+}
