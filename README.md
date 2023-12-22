@@ -1,7 +1,7 @@
 ### DISCLAIMER
 BASE FRAMEWORK = api-testing-protractor-typescript  
 https://github.com/qaloop/api-testing-protractor-typescript 
-For POC Purposes only
+For POC Purposes only (Test)
 
 #### Pre-requisites
 1.NodeJS installed globally in the system.
